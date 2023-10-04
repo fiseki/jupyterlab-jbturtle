@@ -26,4 +26,14 @@ for count in range(100):
   * Initialization
   * xs: x-size of workspace
   * ys: y-size of workspace
-*
+* show()
+* forward(dst)
+* turn_right(angle)
+* turn_left(angle)
+* move(xx, yy)
+* pen_up()
+* pen_down()       
+* speed(spd)
+* line_width(lwdt)
+* line_hsv(hh, ss, vv)
+* line_color(cc)
