@@ -68,12 +68,14 @@ class JBTurtle:
 
     def turn_right(self, angle):
         self.th += angle
+        self.th  = self.th % 360
         self.cos = cos(radians(self.th))
         self.sin = sin(radians(self.th))
 
 
     def turn_left(self, angle):
         self.th -= angle
+        self.th  = self.th % 360
         self.cos = cos(radians(self.th))
         self.sin = sin(radians(self.th))
     
@@ -112,6 +114,7 @@ class JBTurtle:
 
 
     def line_width(self, lwdt):
+        if (lwdt < 1): lwdt = 1
         self.lwdt = lwdt
 
 
