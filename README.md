@@ -17,7 +17,7 @@ for count in range(100):
   turtle.turn_right(85)
   nn += 5
 ```
-## Function
+## Functions
 * JBTurtle(xs, ys)
   * Constructor
   * xs: x-size of workspace
