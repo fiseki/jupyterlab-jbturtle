@@ -114,6 +114,14 @@ class JBTurtle:
         self.lwdt = lwdt
 
 
+    def line_color(self, cc):
+        self.lclr = cc
+        
+
+    def line_rgb(self, rc, gc, bc):
+        self.line_color((rc, gc, bc))
+
+
     def line_hsv(self, hh, ss, vv):
         hh = hh%360
         if (hh<0): hh = hh + 360
@@ -150,9 +158,4 @@ class JBTurtle:
             bc = (360 - hh)/50*(aa - bb) + bb
         #
         self.lclr = (int(rc*255), int(gc*255), int(bc*255))
-        
-
-    def line_color(self, cc):
-        self.lclr = cc
-        
 
