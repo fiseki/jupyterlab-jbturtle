@@ -8,9 +8,10 @@ long_license = (this_directory / 'LICENSE').read_text()
 setup(
     name = 'jbturtle',
     version = '0.2.5',
-    email = 'fumi.hax@gmail.com',
-    description = 'Simple turtle system for JupyterLab',
     install_requires = [ 'Pillow' ],
+    description = 'Simple turtle system for JupyterLab',
+    author='Fumi.Iseki',
+    author_email='fumi.hax@gmail.com',
     packages = find_packages(),
     long_description = long_description,
     long_description_content_type = 'text/markdown',
