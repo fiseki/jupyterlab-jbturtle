@@ -6,7 +6,7 @@ from PIL  import Image, ImageDraw
 from IPython.display import display, clear_output
 
 
-class BTurtle:
+class JBTurtle:
 
     def __init__(self, xs, ys):
         self.init(xs, ys)
