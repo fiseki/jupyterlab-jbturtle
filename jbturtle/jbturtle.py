@@ -123,7 +123,7 @@ class JBTurtle:
 
 
     def line_hsv(self, hh, ss, vv):
-        hh = hh%360
+        hh = hh % 360
         if (hh<0): hh = hh + 360
         if (ss<0.0):   ss = 0.0 
         elif (ss>1.0): ss = 1.0
