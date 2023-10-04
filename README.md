@@ -35,5 +35,5 @@ for count in range(100):
 * pen_down()       
 * speed(spd)
 * line_width(lwdt)
-* line_hsv(hh, ss, vv)
-* line_color(cc)
+* line_color((red, green, blue))
+* line_hsv(h, s, v)
