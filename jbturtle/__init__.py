@@ -1,2 +1,2 @@
 
-from jupyterlab_jbturtle import *
+from jbturtle.jbturtle import *
