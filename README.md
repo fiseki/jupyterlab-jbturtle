@@ -1,5 +1,5 @@
 # jupyterlab-jbturtle
-Simple Turtle module for JupyterLab
+Simple turtle module for JupyterLab
 
 ## JBTurtle
 * This module uses **Pillow**
@@ -31,7 +31,6 @@ for count in range(100):
   * Initialization
   * xs: x-size of workspace
   * ys: y-size of workspace
-* show()
 * forward(dst)
 * turn_right(angle)
 * turn_left(angle)
