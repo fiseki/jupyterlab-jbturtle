@@ -7,7 +7,7 @@ long_license = (this_directory / 'LICENSE').read_text()
 
 setup(
     name = 'jbturtle',
-    version = '0.2.5',
+    version = '0.2.6',
     install_requires = [ 'Pillow' ],
     description = 'Simple turtle system for JupyterLab',
     author='Fumi.Iseki',
@@ -17,6 +17,6 @@ setup(
     long_description_content_type = 'text/markdown',
     license = long_license,
     url = 'https://github.com/fiseki/jupyterlab-jbturtle',
-    download_url = 'https://github.com/fiseki/jupyterlab-jbturtle.git',
+    download_url = 'https://github.com/fiseki/jupyterlab-jbturtle',
 )
 

@@ -107,6 +107,7 @@ class JBTurtle:
 
 
     def speed(self, spd):
+        if (spd < 1): spd = 1
         self.spd = spd
 
 
@@ -134,28 +135,28 @@ class JBTurtle:
         bb = vv - vv*ss
         if (hh>=0 and hh<60):
             rc = aa
-            gc = (hh/60)*(aa - bb) + bb
+            gc = (hh/60)*(aa-bb) + bb
             bc = bb
         elif (hh>=60 and hh<120):
-            rc = (120 - hh)/60*(aa - bb) + bb
+            rc = (120-hh)/60*(aa-bb) + bb
             gc = aa
             bc = bb
         elif (hh>=120 and hh<180):
             rc = bb
             gc = aa
-            bc = (hh - 120)/60*(aa - bb) + bb
+            bc = (hh-120)/60*(aa-bb) + bb
         elif (hh>=180 and hh<240):
             rc = bb
-            gc = (240 - hh)/60*(aa - bb) + bb
+            gc = (240-hh)/60*(aa-bb) + bb
             bc = aa
         elif (hh>=240 and hh<300):
-            rc = (hh - 240)/60*(aa - bb) + bb
+            rc = (hh-240)/60*(aa-bb) + bb
             gc = bb
             bc = aa
         else:           # hh>=300 and hh<360
             rc = aa
             gc = bb
-            bc = (360 - hh)/50*(aa - bb) + bb
+            bc = (360-hh)/50*(aa-bb) + bb
         #
         self.lclr = (int(rc*255), int(gc*255), int(bc*255))
 
