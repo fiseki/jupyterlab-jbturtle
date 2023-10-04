@@ -3,6 +3,7 @@ Simple Turtle module for JupyterLab
 
 ## Install
 ```
+pip install Pillow
 pip install jbturtle
 ``` 
 ## Sample
