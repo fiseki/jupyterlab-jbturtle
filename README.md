@@ -43,6 +43,6 @@ for count in range(100):
 * pen_width(lw)
   * default is 2
 * pen_color((r, g, b))
-  * default is (0, 0, 0)  
+  * default is (0, 0, 0) or #000000
 * pen_rgb(r, g, b)
 * pen_hsv(h, s, v)
