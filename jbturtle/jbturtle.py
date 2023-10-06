@@ -163,3 +163,10 @@ class JBTurtle:
         #
         self.lclr = (int(rc*255), int(gc*255), int(bc*255))
 
+
+pen_speed = speed
+pen_width = line_width
+pen_color = line_color
+pen_rgb = line_rgb
+pen_hsv = line_hsv
+

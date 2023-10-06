@@ -7,7 +7,7 @@ long_license = (this_directory / 'LICENSE').read_text()
 
 setup(
     name = 'jbturtle',
-    version = '0.2.6',
+    version = '0.2.7',
     install_requires = [ 'Pillow' ],
     description = 'Simple turtle system for JupyterLab',
     author='Fumi.Iseki',
