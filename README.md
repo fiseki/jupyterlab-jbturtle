@@ -35,10 +35,10 @@ for count in range(100):
 * turn_right(angle)
 * turn_left(angle)
 * move(x, y)
-* pen_up()
+* pen_up()     default is pen_up()
 * pen_down()       
-* pen_speed(spd)
-* pen_width(lw)
-* pen_color((r, g, b))
+* pen_speed(spd)  default is 2
+* pen_width(lw)  default is 2
+* pen_color((r, g, b))  default is (0, 0, 0)  
 * pen_rgb(r, g, b)
 * pen_hsv(h, s, v)
