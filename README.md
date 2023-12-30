@@ -5,6 +5,9 @@ Simple turtle module for JupyterLab
 * This module uses **Pillow**
 * Attention: Almost impractical with FireFox because of FOUC. **Do not use with FireFox.**
 
+## PyPI Project
+* https://pypi.org/project/jbturtle/
+
 ## Install
 ```
 pip install Pillow
