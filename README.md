@@ -54,5 +54,8 @@ for count in range(100):
 This system was created inspired by
 
 "JupyterLab によるPython 学習のはじめかた", 
-新村 正明, 小林 一樹, 小形 真平, 
+新村 正明, 小林 一樹, 小形 真平
+
 電子情報通信学会 通信ソサイエティマガジン 2022 年 15 巻 4 号 p. 333-338
+
+https://www.jstage.jst.go.jp/article/bplus/15/4/15_333/_article/-char/ja/
