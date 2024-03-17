@@ -49,3 +49,10 @@ for count in range(100):
   * default is (0, 0, 0) or #000000
 * pen_rgb(r, g, b)
 * pen_hsv(h, s, v)
+
+## Acknowledgments
+This system was created inspired by
+
+"JupyterLab によるPython 学習のはじめかた", 
+新村 正明, 小林 一樹, 小形 真平, 
+電子情報通信学会 通信ソサイエティマガジン 2022 年 15 巻 4 号 p. 333-338
