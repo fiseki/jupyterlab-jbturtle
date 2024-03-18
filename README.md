@@ -41,14 +41,14 @@ for count in range(100):
 * pen_up()
   * default state
 * pen_down()       
-* pen_speed(spd)
+* speed(spd)
   * default is 2
-* pen_width(lw)
+* line_width(lw)
   * default is 2
-* pen_color((r, g, b))
+* line_color((r, g, b))
   * default is (0, 0, 0) or #000000
-* pen_rgb(r, g, b)
-* pen_hsv(h, s, v)
+* line_rgb(r, g, b)
+* line_hsv(h, s, v)
 
 ## Acknowledgments
 This system was created inspired by
